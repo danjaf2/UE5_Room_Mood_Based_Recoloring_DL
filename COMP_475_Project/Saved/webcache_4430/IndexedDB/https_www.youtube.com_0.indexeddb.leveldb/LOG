@@ -1,0 +1,6 @@
+2023/03/19-14:00:01.485 f20 Creating DB C:/Users/Asus/Desktop/bruuh/COMP_475_Project/COMP_475_Project/Saved/webcache_4430\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb since it was missing.
+2023/03/19-14:00:01.490 f20 Reusing MANIFEST C:/Users/Asus/Desktop/bruuh/COMP_475_Project/COMP_475_Project/Saved/webcache_4430\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/19-14:04:42.524 64d4 Level-0 table #5: started
+2023/03/19-14:04:42.528 64d4 Level-0 table #5: 8808 bytes OK
+2023/03/19-14:04:42.529 64d4 Delete type=0 #3
+2023/03/19-14:04:42.533 64d4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
