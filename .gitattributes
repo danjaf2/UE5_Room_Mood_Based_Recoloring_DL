@@ -65,3 +65,4 @@
 *.upk filter=lfs diff=lfs merge=lfs -text
 *.udk filter=lfs diff=lfs merge=lfs -text
 *.duf filter=lfs diff=lfs merge=lfs -text
+*.pbd filter=lfs diff=lfs merge=lfs -text
