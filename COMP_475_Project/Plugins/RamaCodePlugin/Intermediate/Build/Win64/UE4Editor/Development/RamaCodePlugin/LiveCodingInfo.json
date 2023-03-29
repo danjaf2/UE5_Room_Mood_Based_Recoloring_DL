@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RamaCodePlugin.cpp.obj": [
+			"RamaCodePlugin.cpp.obj",
+			"RamaCodePluginBPLibrary.cpp.obj"
+		],
+		"Module.RamaCodePlugin.gen.cpp.obj": [
+			"RamaCodePlugin.init.gen.cpp.obj",
+			"RamaCodePluginBPLibrary.gen.cpp.obj"
+		]
+	}
+}

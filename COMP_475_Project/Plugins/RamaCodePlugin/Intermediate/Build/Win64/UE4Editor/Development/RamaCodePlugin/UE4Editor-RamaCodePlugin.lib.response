@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-RamaCodePlugin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\JoyGame\Intermediate\Build\Win64\JoyGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"E:\JoyGame\Plugins\RamaCodePlugin\Intermediate\Build\Win64\UE4Editor\Development\RamaCodePlugin\Module.RamaCodePlugin.cpp.obj"
+"E:\JoyGame\Plugins\RamaCodePlugin\Intermediate\Build\Win64\UE4Editor\Development\RamaCodePlugin\Module.RamaCodePlugin.gen.cpp.obj"
+"E:\JoyGame\Plugins\RamaCodePlugin\Intermediate\Build\Win64\UE4Editor\Development\RamaCodePlugin\Default.rc2.res"
+/OUT:"E:\JoyGame\Plugins\RamaCodePlugin\Intermediate\Build\Win64\UE4Editor\Development\RamaCodePlugin\UE4Editor-RamaCodePlugin.lib"
+/INCLUDE:IMPLEMENT_MODULE_RamaCodePlugin

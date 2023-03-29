@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RamaCodePlugin.cpp.obj": [
+			"JoyActor.gen.cpp.obj",
+			"JoyDataTypes.gen.cpp.obj",
+			"RamaCodeJoyGeoActor.gen.cpp.obj",
+			"RamaCodeMultiThreadActor.gen.cpp.obj",
+			"RamaCodePlugin.init.gen.cpp.obj",
+			"RamaCodePluginBPLibrary.gen.cpp.obj",
+			"RamaJoyPatrol.gen.cpp.obj",
+			"RamaCodePlugin.cpp.obj",
+			"RamaCodeJoyGeoActor.cpp.obj",
+			"RamaCodeMultiThreadActor.cpp.obj",
+			"RamaCodePrimeCalcThread.cpp.obj",
+			"RamaCodePluginBPLibrary.cpp.obj",
+			"RamaJoyPatrol.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,37 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\intermediate\\build\\win64\\unrealeditor\\development\\ramacodeplugin\\module.ramacodeplugin.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unreal projects\\cpp\\ramacode\\intermediate\\build\\win64\\ramacodeeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\intermediate\\build\\win64\\unrealeditor\\development\\ramacodeplugin\\definitions.ramacodeplugin.h",
+            "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\ramacodeplugin\\joyactor.gen.cpp",
+            "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\source\\ramacodeplugin\\public\\joyactor.h",
+            "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\ramacodeplugin\\joyactor.generated.h",
+            "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\ramacodeplugin\\joydatatypes.gen.cpp",
+            "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\source\\ramacodeplugin\\public\\joydatatypes.h",
+            "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\ramacodeplugin\\joydatatypes.generated.h",
+            "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\ramacodeplugin\\ramacodejoygeoactor.gen.cpp",
+            "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\source\\ramacodeplugin\\public\\joygeo\\ramacodejoygeoactor.h",
+            "e:\\ue4engine\\ue_5.0\\engine\\plugins\\runtime\\proceduralmeshcomponent\\source\\proceduralmeshcomponent\\public\\proceduralmeshcomponent.h",
+            "e:\\ue4engine\\ue_5.0\\engine\\plugins\\runtime\\proceduralmeshcomponent\\intermediate\\build\\win64\\unrealeditor\\inc\\proceduralmeshcomponent\\proceduralmeshcomponent.generated.h",
+            "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\ramacodeplugin\\ramacodejoygeoactor.generated.h",
+            "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\ramacodeplugin\\ramacodemultithreadactor.gen.cpp",
+            "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\source\\ramacodeplugin\\public\\multithread\\ramacodemultithreadactor.h",
+            "e:\\ue4engine\\ue_5.0\\engine\\source\\runtime\\core\\public\\containers\\circularqueue.h",
+            "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\source\\ramacodeplugin\\public\\multithread\\ramacodeprimecalcthread.h",
+            "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\source\\ramacodeplugin\\public\\multithread\\ramathreadbase.h",
+            "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\ramacodeplugin\\ramacodemultithreadactor.generated.h",
+            "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\ramacodeplugin\\ramacodeplugin.init.gen.cpp",
+            "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\ramacodeplugin\\ramacodepluginbplibrary.gen.cpp",
+            "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\source\\ramacodeplugin\\public\\ramacodepluginbplibrary.h",
+            "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\ramacodeplugin\\ramacodepluginbplibrary.generated.h",
+            "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\ramacodeplugin\\ramajoypatrol.gen.cpp",
+            "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\source\\ramacodeplugin\\public\\ramajoypatrol\\ramajoypatrol.h",
+            "e:\\unreal projects\\cpp\\ramacode\\plugins\\ramacodeplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\ramacodeplugin\\ramajoypatrol.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
