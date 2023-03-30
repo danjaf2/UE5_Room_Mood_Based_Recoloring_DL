@@ -6,8 +6,7 @@
 /NAME:"UnrealEditor-RamaCodePlugin.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"E:\Unreal Projects\CPP\RamaCode\Intermediate\Build\Win64\RamaCodeEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"E:\Unreal Projects\CPP\RamaCode\Plugins\RamaCodePlugin\Intermediate\Build\Win64\UnrealEditor\Development\RamaCodePlugin\Module.RamaCodePlugin.cpp.obj"
-"E:\Unreal Projects\CPP\RamaCode\Plugins\RamaCodePlugin\Intermediate\Build\Win64\UnrealEditor\Development\RamaCodePlugin\Module.RamaCodePlugin.gen.cpp.obj"
-"E:\Unreal Projects\CPP\RamaCode\Plugins\RamaCodePlugin\Intermediate\Build\Win64\UnrealEditor\Development\RamaCodePlugin\Default.rc2.res"
-/OUT:"E:\Unreal Projects\CPP\RamaCode\Plugins\RamaCodePlugin\Intermediate\Build\Win64\UnrealEditor\Development\RamaCodePlugin\UnrealEditor-RamaCodePlugin.lib"
+"C:\Users\Asus\Desktop\bruuh\COMP_475_Project\COMP_475_Project\Intermediate\Build\Win64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Asus\Desktop\bruuh\COMP_475_Project\COMP_475_Project\Plugins\RamaCodePlugin\Intermediate\Build\Win64\UnrealEditor\Development\RamaCodePlugin\Module.RamaCodePlugin.cpp.obj"
+"C:\Users\Asus\Desktop\bruuh\COMP_475_Project\COMP_475_Project\Plugins\RamaCodePlugin\Intermediate\Build\Win64\UnrealEditor\Development\RamaCodePlugin\Default.rc2.res"
+/OUT:"C:\Users\Asus\Desktop\bruuh\COMP_475_Project\COMP_475_Project\Plugins\RamaCodePlugin\Intermediate\Build\Win64\UnrealEditor\Development\RamaCodePlugin\UnrealEditor-RamaCodePlugin.lib"

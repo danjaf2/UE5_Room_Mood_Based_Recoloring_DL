@@ -1,6 +1,10 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Asus\\Desktop\\bruuh\\COMP_475_Project\\COMP_475_Project\\Plugins\\RamaCodePlugin\\Source\\RamaCodePlugin\\RamaCodePlugin.Build.cs"
+		"C:\\Users\\Asus\\Desktop\\bruuh\\COMP_475_Project\\COMP_475_Project\\Source\\COMP_475_Project\\COMP_475_Project.Build.cs",
+		"C:\\Users\\Asus\\Desktop\\bruuh\\COMP_475_Project\\COMP_475_Project\\Plugins\\RamaCodePlugin\\Source\\RamaCodePlugin\\RamaCodePlugin.Build.cs",
+		"C:\\Users\\Asus\\Desktop\\bruuh\\COMP_475_Project\\COMP_475_Project\\Plugins\\VictoryPlugin\\Source\\VictoryBPLibrary\\VictoryBPLibrary.Build.cs",
+		"C:\\Users\\Asus\\Desktop\\bruuh\\COMP_475_Project\\COMP_475_Project\\Source\\COMP_475_Project.Target.cs",
+		"C:\\Users\\Asus\\Desktop\\bruuh\\COMP_475_Project\\COMP_475_Project\\Source\\COMP_475_ProjectEditor.Target.cs"
 	],
 	"EngineVersion": "5.1.0"
 }

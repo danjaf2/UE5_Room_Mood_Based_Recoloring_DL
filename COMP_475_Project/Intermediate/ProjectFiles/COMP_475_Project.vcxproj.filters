@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\COMP_475_Project.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\COMP_475_Project.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\COMP_475_ProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Platforms">
+      <UniqueIdentifier>{ED49A36C-4FD5-37E5-A2AC-E11BEF4F21CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens">
+      <UniqueIdentifier>{28125F47-4973-377C-9D77-EBC3C72EC856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens\Config">
+      <UniqueIdentifier>{D3BF39CB-FA64-39E2-A327-B5021BA69773}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\HoloLens\Config\HoloLensEngine.ini">
+      <Filter>Platforms\HoloLens\Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\RamaCodePlugin">
+      <UniqueIdentifier>{DBB96F05-BCD3-3C4A-B337-0197170E51D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\RamaCodePlugin\Source">
+      <UniqueIdentifier>{F51ECD5E-A395-3491-9182-AC16C69F1E61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\RamaCodePlugin\Source\RamaCodePlugin">
+      <UniqueIdentifier>{87586B95-BF7C-378F-BDD9-64635237F46D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\RamaCodePlugin\Source\RamaCodePlugin\RamaCodePlugin.Build.cs">
+      <Filter>Plugins\RamaCodePlugin\Source\RamaCodePlugin</Filter>
+    </None>
+    <Filter Include="Plugins\RamaCodePlugin\Source\RamaCodePlugin\Private">
+      <UniqueIdentifier>{EB31708B-1846-30E6-8CA8-21911D35213C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RamaCodePlugin\Source\RamaCodePlugin\Private\RamaCodePlugin.cpp">
+      <Filter>Plugins\RamaCodePlugin\Source\RamaCodePlugin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public">
+      <UniqueIdentifier>{9625FB73-F3B7-39D5-BEA0-8DA46DED19E5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\JoyActor.h">
+      <Filter>Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\JoyDataTypes.h">
+      <Filter>Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\RamaCodePlugin.h">
+      <Filter>Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\RamaCodePluginBPLibrary.cpp">
+      <Filter>Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\RamaCodePluginBPLibrary.h">
+      <Filter>Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\RamaCodePreProcessor.h">
+      <Filter>Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\JoyGeo">
+      <UniqueIdentifier>{5EB2F237-DA6B-3C76-9161-5DC874152011}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\JoyGeo\RamaCodeJoyGeoActor.cpp">
+      <Filter>Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\JoyGeo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\JoyGeo\RamaCodeJoyGeoActor.h">
+      <Filter>Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\JoyGeo</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\MultiThread">
+      <UniqueIdentifier>{1CFF2A18-0132-39C8-B8B0-3A64BD853369}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\MultiThread\RamaCodeMultiThreadActor.cpp">
+      <Filter>Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\MultiThread</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\MultiThread\RamaCodeMultiThreadActor.h">
+      <Filter>Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\MultiThread</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\MultiThread\RamaCodePrimeCalcThread.cpp">
+      <Filter>Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\MultiThread</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\MultiThread\RamaCodePrimeCalcThread.h">
+      <Filter>Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\MultiThread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\MultiThread\RamaThreadBase.h">
+      <Filter>Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\MultiThread</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\RamaJoyPatrol">
+      <UniqueIdentifier>{E3DEE1F4-C8AF-3668-9A82-B15B61424519}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\RamaJoyPatrol\RamaJoyPatrol.cpp">
+      <Filter>Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\RamaJoyPatrol</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\RamaJoyPatrol\RamaJoyPatrol.h">
+      <Filter>Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\RamaJoyPatrol</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\RamaCodePlugin\RamaCodePlugin.uplugin">
+      <Filter>Plugins\RamaCodePlugin</Filter>
+    </None>
+    <Filter Include="Plugins\RamaCodePlugin\Resources">
+      <UniqueIdentifier>{52476AD0-17D7-38AC-A8F0-3E3A69E94F73}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\RamaCodePlugin\Resources\Icon128.png">
+      <Filter>Plugins\RamaCodePlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\VictoryPlugin">
+      <UniqueIdentifier>{A0F49040-6300-3FF7-AE10-021994AD4664}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VictoryPlugin\VictoryBPLibrary.uplugin">
+      <Filter>Plugins\VictoryPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\VictoryPlugin\Resources">
+      <UniqueIdentifier>{1BF862D8-25A8-34DF-8EB5-74556A4B9F97}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VictoryPlugin\Resources\Icon128.png">
+      <Filter>Plugins\VictoryPlugin\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\VictoryPlugin\Resources\Thumbs.db">
+      <Filter>Plugins\VictoryPlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\VictoryPlugin\Source">
+      <UniqueIdentifier>{7C2A5948-3ED5-3E98-8227-4A03397E1380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VictoryPlugin\Source\VictoryBPLibrary">
+      <UniqueIdentifier>{81090A32-D512-3737-8B7D-9544BA49D483}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\VictoryBPLibrary.Build.cs">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary</Filter>
+    </None>
+    <Filter Include="Plugins\VictoryPlugin\Source\VictoryBPLibrary\Private">
+      <UniqueIdentifier>{C98215B0-2807-34D6-92DA-E162F6C375D5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Private\VictoryBPLibrary.cpp">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public">
+      <UniqueIdentifier>{E4235652-3C05-3BE1-88CB-FF4BADE09188}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public\RamaColorPicker.cpp">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public\RamaColorPicker.h">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public\SJoyColorPicker.h">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public\VictoryBPFunctionLibrary.cpp">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public\VictoryBPFunctionLibrary.h">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public\VictoryBPFunctionLibrary_WinOS.cpp">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public\VictoryBPLibrary.h">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\COMP_475_Project">
+      <UniqueIdentifier>{BF5561D8-1DF6-3EB8-872C-73369E26846D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\COMP_475_Project\ColorChanger.cpp">
+      <Filter>Source\COMP_475_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\COMP_475_Project\ColorChanger.h">
+      <Filter>Source\COMP_475_Project</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\COMP_475_Project\COMP_475_Project.Build.cs">
+      <Filter>Source\COMP_475_Project</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\COMP_475_Project\COMP_475_Project.cpp">
+      <Filter>Source\COMP_475_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\COMP_475_Project\COMP_475_Project.h">
+      <Filter>Source\COMP_475_Project</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\asus\\desktop\\bruuh\\comp_475_project\\comp_475_project\\intermediate\\build\\win64\\unrealeditor\\inc\\comp_475_project\\uht\\comp_475_project.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\asus\\desktop\\bruuh\\comp_475_project\\comp_475_project\\intermediate\\build\\win64\\comp_475_projecteditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\asus\\desktop\\bruuh\\comp_475_project\\comp_475_project\\intermediate\\build\\win64\\unrealeditor\\development\\comp_475_project\\definitions.comp_475_project.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
