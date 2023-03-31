@@ -29,10 +29,11 @@ void EmptyLinkFunctionForGeneratedCodeColorChanger() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_blueprintActors_Inner;
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_blueprintActor_MetaData[];
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_blueprintActors_MetaData[];
 #endif
-		static const UECodeGen_Private::FObjectPropertyParams NewProp_blueprintActor;
+		static const UECodeGen_Private::FArrayPropertyParams NewProp_blueprintActors;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -47,15 +48,17 @@ void EmptyLinkFunctionForGeneratedCodeColorChanger() {}
 		{ "ModuleRelativePath", "ColorChanger.h" },
 	};
 #endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AColorChanger_Statics::NewProp_blueprintActors_Inner = { "blueprintActors", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AColorChanger_Statics::NewProp_blueprintActor_MetaData[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AColorChanger_Statics::NewProp_blueprintActors_MetaData[] = {
 		{ "Category", "BlueprintClass" },
 		{ "ModuleRelativePath", "ColorChanger.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AColorChanger_Statics::NewProp_blueprintActor = { "blueprintActor", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AColorChanger, blueprintActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AColorChanger_Statics::NewProp_blueprintActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AColorChanger_Statics::NewProp_blueprintActor_MetaData)) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AColorChanger_Statics::NewProp_blueprintActors = { "blueprintActors", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AColorChanger, blueprintActors), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AColorChanger_Statics::NewProp_blueprintActors_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AColorChanger_Statics::NewProp_blueprintActors_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AColorChanger_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AColorChanger_Statics::NewProp_blueprintActor,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AColorChanger_Statics::NewProp_blueprintActors_Inner,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AColorChanger_Statics::NewProp_blueprintActors,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AColorChanger_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AColorChanger>::IsAbstract,
@@ -94,9 +97,9 @@ void EmptyLinkFunctionForGeneratedCodeColorChanger() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_COMP_475_Project_Source_COMP_475_Project_ColorChanger_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AColorChanger, AColorChanger::StaticClass, TEXT("AColorChanger"), &Z_Registration_Info_UClass_AColorChanger, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AColorChanger), 3834746068U) },
+		{ Z_Construct_UClass_AColorChanger, AColorChanger::StaticClass, TEXT("AColorChanger"), &Z_Registration_Info_UClass_AColorChanger, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AColorChanger), 4125369412U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_COMP_475_Project_Source_COMP_475_Project_ColorChanger_h_407494375(TEXT("/Script/COMP_475_Project"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_COMP_475_Project_Source_COMP_475_Project_ColorChanger_h_1607094260(TEXT("/Script/COMP_475_Project"),
 		Z_CompiledInDeferFile_FID_COMP_475_Project_Source_COMP_475_Project_ColorChanger_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_COMP_475_Project_Source_COMP_475_Project_ColorChanger_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
