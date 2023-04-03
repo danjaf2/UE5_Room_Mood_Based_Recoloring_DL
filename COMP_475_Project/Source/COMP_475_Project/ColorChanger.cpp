@@ -76,17 +76,19 @@ void AColorChanger::UpdateAllColors()
 void AColorChanger::TakeShots()
 {
 	FTimerDelegate TimerDelegate;
-	
+
 	TimerDelegate.BindLambda([&]
 		{
 			BP_SaveShot(blueprintActors[0], 0);
 			BP_SaveShot(blueprintActors[1], 1);
 			BP_SaveShot(blueprintActors[2], 2);
 			BP_SaveShot(blueprintActors[3], 3);
+
+			//IF YOU WANT TO DO SOMETHING IMMEDIATLY AFTER TAKING THE PHOTOS PUT A FUNCTION CALL HERE
 		});
 	
 	FTimerHandle TimerHandle;
-	GetWorld()->GetTimerManager().SetTimer(TimerHandle, TimerDelegate, 0.2, false);
+	GetWorld()->GetTimerManager().SetTimer(TimerHandle, TimerDelegate, 0.000001, false);
 }
 
 void AColorChanger::SetColor(int index, float r, float g, float b)

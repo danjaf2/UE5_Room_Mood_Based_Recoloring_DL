@@ -35,9 +35,6 @@
 /FUNCTIONPADMIN:6
 "C:\Users\Asus\Desktop\bruuh\COMP_475_Project\COMP_475_Project\Intermediate\Build\Win64\COMP_475_ProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
 "C:\Users\Asus\Desktop\bruuh\COMP_475_Project\COMP_475_Project\Plugins\VictoryPlugin\Intermediate\Build\Win64\UnrealEditor\Development\VictoryBPLibrary\Module.VictoryBPLibrary.cpp.obj"
-"C:\Users\Asus\Desktop\bruuh\COMP_475_Project\COMP_475_Project\Plugins\VictoryPlugin\Intermediate\Build\Win64\UnrealEditor\Development\VictoryBPLibrary\RamaColorPicker.gen.cpp.obj"
-"C:\Users\Asus\Desktop\bruuh\COMP_475_Project\COMP_475_Project\Plugins\VictoryPlugin\Intermediate\Build\Win64\UnrealEditor\Development\VictoryBPLibrary\VictoryBPFunctionLibrary.gen.cpp.obj"
-"C:\Users\Asus\Desktop\bruuh\COMP_475_Project\COMP_475_Project\Plugins\VictoryPlugin\Intermediate\Build\Win64\UnrealEditor\Development\VictoryBPLibrary\VictoryBPLibrary.init.gen.cpp.obj"
 "C:\Users\Asus\Desktop\bruuh\COMP_475_Project\COMP_475_Project\Plugins\VictoryPlugin\Intermediate\Build\Win64\UnrealEditor\Development\VictoryBPLibrary\Default.rc2.res"
 "..\Intermediate\Build\Win64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
 "..\Intermediate\Build\Win64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
