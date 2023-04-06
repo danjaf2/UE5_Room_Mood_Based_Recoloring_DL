@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "COMP_475_Project",
-			"Path": "C:\\Users\\Asus\\Desktop\\bruuh\\COMP_475_Project\\COMP_475_Project\\Source\\COMP_475_Project.Target.cs",
+			"Path": "C:\\Users\\nimbus\\Documents\\Unreal Projects\\COMP-475\\Team\\COMP_475_Project\\COMP_475_Project\\Source\\COMP_475_Project.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "COMP_475_ProjectEditor",
-			"Path": "C:\\Users\\Asus\\Desktop\\bruuh\\COMP_475_Project\\COMP_475_Project\\Source\\COMP_475_ProjectEditor.Target.cs",
+			"Path": "C:\\Users\\nimbus\\Documents\\Unreal Projects\\COMP-475\\Team\\COMP_475_Project\\COMP_475_Project\\Source\\COMP_475_ProjectEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

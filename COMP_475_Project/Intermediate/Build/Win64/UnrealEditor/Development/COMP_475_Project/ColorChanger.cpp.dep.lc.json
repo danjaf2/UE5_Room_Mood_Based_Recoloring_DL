@@ -1,14 +1,14 @@
 {
-    "Version": "1.2",
+    "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\asus\\desktop\\bruuh\\comp_475_project\\comp_475_project\\source\\comp_475_project\\colorchanger.cpp",
+        "Source": "c:\\users\\nimbus\\documents\\unreal projects\\comp-475\\team\\comp_475_project\\comp_475_project\\source\\comp_475_project\\colorchanger.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\asus\\desktop\\bruuh\\comp_475_project\\comp_475_project\\intermediate\\build\\win64\\comp_475_projecteditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "PCH": "c:\\users\\nimbus\\documents\\unreal projects\\comp-475\\team\\comp_475_project\\comp_475_project\\intermediate\\build\\win64\\comp_475_projecteditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
         "Includes": [
-            "c:\\users\\asus\\desktop\\bruuh\\comp_475_project\\comp_475_project\\intermediate\\build\\win64\\unrealeditor\\development\\comp_475_project\\definitions.comp_475_project.h",
-            "c:\\users\\asus\\desktop\\bruuh\\comp_475_project\\comp_475_project\\source\\comp_475_project\\colorchanger.h",
-            "d:\\ue_5.1\\engine\\source\\runtime\\core\\public\\misc\\outputdevicenull.h",
-            "c:\\users\\asus\\desktop\\bruuh\\comp_475_project\\comp_475_project\\intermediate\\build\\win64\\unrealeditor\\inc\\comp_475_project\\uht\\colorchanger.generated.h"
+            "c:\\users\\nimbus\\documents\\unreal projects\\comp-475\\team\\comp_475_project\\comp_475_project\\intermediate\\build\\win64\\unrealeditor\\development\\comp_475_project\\definitions.comp_475_project.h",
+            "c:\\users\\nimbus\\documents\\unreal projects\\comp-475\\team\\comp_475_project\\comp_475_project\\source\\comp_475_project\\colorchanger.h",
+            "n:\\epic\\epic games\\ue_5.1\\engine\\source\\runtime\\core\\public\\misc\\outputdevicenull.h",
+            "c:\\users\\nimbus\\documents\\unreal projects\\comp-475\\team\\comp_475_project\\comp_475_project\\intermediate\\build\\win64\\unrealeditor\\inc\\comp_475_project\\uht\\colorchanger.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
