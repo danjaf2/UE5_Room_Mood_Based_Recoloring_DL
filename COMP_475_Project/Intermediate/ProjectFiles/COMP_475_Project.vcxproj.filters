@@ -204,5 +204,11 @@
     <ClInclude Include="..\..\Source\COMP_475_Project\MyNeuralNetwork.h">
       <Filter>Source\COMP_475_Project</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\COMP_475_Project\MyOptimizer.cpp">
+      <Filter>Source\COMP_475_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\COMP_475_Project\MyOptimizer.h">
+      <Filter>Source\COMP_475_Project</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
