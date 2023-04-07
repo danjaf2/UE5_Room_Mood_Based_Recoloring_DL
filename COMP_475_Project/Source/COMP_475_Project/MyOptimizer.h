@@ -11,6 +11,7 @@ class COMP_475_PROJECT_API MyOptimizer
 {
 public:
 	MyOptimizer();
-	void OptimizeSceneForMoods();
+	static void OptimizeSceneForMoods();
+	static void MyOptimizerSinkFunction();
 	~MyOptimizer();
 };
