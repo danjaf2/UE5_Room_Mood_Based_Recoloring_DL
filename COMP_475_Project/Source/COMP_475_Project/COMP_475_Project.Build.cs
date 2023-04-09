@@ -4,6 +4,10 @@ namespace UnrealBuildTool.Rules {
         public COMP_475_Project(ReadOnlyTargetRules Target) : base(Target) {
             PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
+            //added to supress warnings from opencv plugin
+            bEnableUndefinedIdentifierWarnings = false;
+            DefaultBuildSettings = BuildSettingsVersion.V2;
+
             PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "OpenCV", "OpenCVHelper", "InputCore" });
 
             PrivateDependencyModuleNames.AddRange(new string[] {

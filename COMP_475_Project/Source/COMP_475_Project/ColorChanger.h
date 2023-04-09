@@ -2,10 +2,20 @@
 
 #pragma once
 
+
+
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "MyNeuralNetwork.h"
+#include "PreOpenCVHeaders.h"
+#include "OpenCVHelper.h"
+#include <ThirdParty/OpenCV/include/opencv2/imgproc.hpp>
+#include <ThirdParty/OpenCV/include/opencv2/highgui/highgui.hpp>
+#include <ThirdParty/OpenCV/include/opencv2/core.hpp>
+#include "PostOpenCVHeaders.h"
 #include "Misc/OutputDeviceNull.h"
 #include "ColorChanger.generated.h"
+
 
 
 
@@ -47,6 +57,12 @@ public:
 
 	
 	TArray<ColorData*> actorColors;
+
+	TArray<float> outputArray;
+
+	UMyNeuralNetwork* myNetwork;
+
+	cv::Mat image;
 
 	
 };

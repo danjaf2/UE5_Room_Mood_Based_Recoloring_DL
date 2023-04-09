@@ -29,7 +29,8 @@ class COMP_475_PROJECT_API UMyNeuralNetwork : public UNeuralNetwork
 		UPROPERTY(Transient)
 			UNeuralNetwork* Network = nullptr;
 		UMyNeuralNetwork();
-		TArray<FColor> URunModel(cv::Mat image);
+		TArray<float> URunModel(cv::Mat image);
 		TArray<float> UPreProcessImage(cv::Mat image);
+		
 	
 };

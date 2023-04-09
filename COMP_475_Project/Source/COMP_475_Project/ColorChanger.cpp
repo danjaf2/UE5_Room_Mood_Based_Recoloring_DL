@@ -2,6 +2,7 @@
 
 
 #include "ColorChanger.h"
+#include <vector>
 #include <cstdlib>
 #include <ctime>
 
@@ -27,6 +28,7 @@ void AColorChanger::BeginPlay()
 		actorColors.Add(dataPath);
 	}
 
+	 
 	//HOW TO USE: THESE THREE ARE THE MAIN COMMANDS (Remove later)
 	SetColor(0, 255, 1, 1);
 	UpdateAllColors();
@@ -34,12 +36,24 @@ void AColorChanger::BeginPlay()
 
 	
 	
+	
 }
 
 // Called every frame
 void AColorChanger::Tick(float DeltaTime)
 {
+	
 	Super::Tick(DeltaTime);
+
+	char* img = "C:/Users/Asus/Desktop/bruuh/COMP_475_Project/COMP_475_Project/RoomShots/img0.png";
+	image = cv::imread(img);
+	myNetwork = NewObject<UMyNeuralNetwork>();
+	outputArray = myNetwork->URunModel(image);
+
+	for (int i = 0; i < outputArray.Num(); i++) {
+		if (GEngine)
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Output:"), outputArray[i]));
+	}
 }
 
 void AColorChanger::BP_ChangeColor(AActor* object, ColorData* colors)

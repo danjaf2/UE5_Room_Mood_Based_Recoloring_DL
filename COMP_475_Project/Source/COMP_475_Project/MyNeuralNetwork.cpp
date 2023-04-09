@@ -29,10 +29,11 @@ UMyNeuralNetwork::UMyNeuralNetwork()
 {
 	Network = nullptr;
 }
-TArray<FColor> UMyNeuralNetwork::URunModel(cv::Mat image)
+TArray<float> UMyNeuralNetwork::URunModel(cv::Mat image)
 {
 	// Create result array
-	TArray<FColor> results;
+	//TArray<FColor> results;
+	TArray<float> res;
 
 	// Create Network object if null
 	if (Network == nullptr) {
@@ -42,9 +43,9 @@ TArray<FColor> UMyNeuralNetwork::URunModel(cv::Mat image)
 
 
 		// Load model from file.
-		const FString& ONNXModelFilePath = TEXT("C:/code/unreal-onnxruntime-styletransfer/Models/mosaic-9.onnx");
+		const FString& ONNXModelFilePath = TEXT("C:/Users/Asus/Desktop/bruuh/COMP_475_Project/COMP_475_Project/Models/test_model_0.onnx");
 		// Set Device
-		Network->SetDeviceType(ENeuralDeviceType::CPU);
+		Network->SetDeviceType(ENeuralDeviceType::GPU);
 		// Check that the network was successfully loaded
 		if (Network->Load(ONNXModelFilePath))
 		{
@@ -52,8 +53,8 @@ TArray<FColor> UMyNeuralNetwork::URunModel(cv::Mat image)
 		}
 		else
 		{
-			UE_LOG(LogTemp, Warning, TEXT("UNeuralNetwork could not loaded from %s."), *ONNXModelFilePath);
-			return results;
+			UE_LOG(LogTemp, Warning, TEXT("UNeuralNetwork could not loaded from %s."), *ONNXModelFilePath); 
+			return res;
 		}
 	}
 
@@ -67,8 +68,10 @@ TArray<FColor> UMyNeuralNetwork::URunModel(cv::Mat image)
 		//Read and print OutputTensor
 		//const FNeuralTensor& OutputTensor = Network->GetOutputTensor();
 		TArray<float> OutputTensor = Network->GetOutputTensor().GetArrayCopy<float>();
+	
+	return OutputTensor;
 
-
+	/*
 	for (int i = 0; i < OutputTensor.Num(); i += 3) {
 
 		//change all neg num positive int
@@ -90,10 +93,9 @@ TArray<FColor> UMyNeuralNetwork::URunModel(cv::Mat image)
 		auto color = FColor(R, G, B, A);
 		//add to result
 		results.Add(color);
-	}
+	}*/
 
-	UE_LOG(LogTemp, Log, TEXT("Results created successfully."))
-		return results;
+	
 }
 
 
