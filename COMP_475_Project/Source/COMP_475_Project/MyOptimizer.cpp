@@ -3,17 +3,11 @@
 
 #include "MyOptimizer.h"
 
-namespace Optimizer
-{
-	static int32 OptimizeScene = 0;
-	static FAutoConsoleVariableRef CVarOptimizeScene(
-		TEXT("r.Optimizer.Enable"),
-		OptimizeScene,
-		TEXT("Scene will be colored to fit different moods based on a model.\n")
-		TEXT("=0:off (default), >0: Enabled"),
-		ECVF_Cheat | ECVF_RenderThreadSafe);
-	//TAutoConsoleVariable<int32> Optimizer::CVarOptimizeScene;
-}
+static TAutoConsoleVariable<int32> CVarOptimizeScene(TEXT("r.Optimizer.Enable"),
+	0,
+	TEXT("Scene will be colored to fit different moods based on a model.\n")
+	TEXT("=0:off (default), >0: Enabled"),
+	ECVF_Cheat | ECVF_RenderThreadSafe);
 
 MyOptimizer::MyOptimizer()
 {
@@ -26,18 +20,25 @@ void MyOptimizer::OptimizeSceneForMoods()
 
 void MyOptimizer::MyOptimizerSinkFunction()
 {		
-	extern TAutoConsoleVariable<int32> CVarOptimizeScene;
-	int32 OptimizeScene = CVarOptimizeScene.GetValueOnGameThread() != 0;
+	//static const auto CVarOptimizeScene = IConsoleManager::Get().FindTConsoleVariableDataInt(TEXT("r.Optimizer.Enable"));
+	//TAutoConsoleVariable<int32> Optimizer::CVarOptimizeScene;
+	//TAutoConsoleVariable<int32> CVarOptimizeScene = Optimizer::OptimizeScene;
+	//int32 OptimizeScene = CVarOptimizeScene.GetValueOnGameThread() != 0;
+	static const auto CVar = IConsoleManager::Get().FindConsoleVariable(TEXT("r.Optimizer.Enable"));
+	int32 OptimizeValue = CVar->GetInt();
 
-	if (Optimizer::OptimizeScene != 0) {
+	if (OptimizeValue != 0) {
 		OptimizeSceneForMoods();
-		Optimizer::OptimizeScene = 0;
+		//not a ref so not changing console value, for now it's fine because its the only command
+		//but if we add more circle back to this and make sure we switch back to 0 
+		OptimizeValue = 0;
 	}
 }
 
 static FAutoConsoleVariableSink CVarOptimizeSceneSink(
 	FConsoleCommandDelegate::CreateStatic(&MyOptimizer::MyOptimizerSinkFunction)
 );
+
 
 MyOptimizer::~MyOptimizer()
 {

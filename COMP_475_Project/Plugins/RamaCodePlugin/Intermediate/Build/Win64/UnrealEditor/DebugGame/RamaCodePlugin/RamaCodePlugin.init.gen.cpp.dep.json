@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\nimbus\\documents\\unreal projects\\comp-475\\team\\comp_475_project\\comp_475_project\\plugins\\ramacodeplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\ramacodeplugin\\uht\\ramacodeplugin.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\nimbus\\documents\\unreal projects\\comp-475\\team\\comp_475_project\\comp_475_project\\intermediate\\build\\win64\\comp_475_projecteditor\\debuggame\\engine\\sharedpch.engine.nonoptimized.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\nimbus\\documents\\unreal projects\\comp-475\\team\\comp_475_project\\comp_475_project\\plugins\\ramacodeplugin\\intermediate\\build\\win64\\unrealeditor\\debuggame\\ramacodeplugin\\definitions.ramacodeplugin.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

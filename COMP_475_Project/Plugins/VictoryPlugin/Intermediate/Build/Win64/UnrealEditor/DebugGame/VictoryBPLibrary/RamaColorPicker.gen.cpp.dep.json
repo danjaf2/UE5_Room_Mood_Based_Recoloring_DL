@@ -1,0 +1,33 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\nimbus\\documents\\unreal projects\\comp-475\\team\\comp_475_project\\comp_475_project\\plugins\\victoryplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\victorybplibrary\\uht\\ramacolorpicker.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\nimbus\\documents\\unreal projects\\comp-475\\team\\comp_475_project\\comp_475_project\\intermediate\\build\\win64\\comp_475_projecteditor\\debuggame\\engine\\sharedpch.engine.nonoptimized.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\nimbus\\documents\\unreal projects\\comp-475\\team\\comp_475_project\\comp_475_project\\plugins\\victoryplugin\\intermediate\\build\\win64\\unrealeditor\\debuggame\\victorybplibrary\\definitions.victorybplibrary.h",
+            "c:\\users\\nimbus\\documents\\unreal projects\\comp-475\\team\\comp_475_project\\comp_475_project\\plugins\\victoryplugin\\source\\victorybplibrary\\public\\ramacolorpicker.h",
+            "n:\\epic\\epic games\\ue_5.1\\engine\\source\\runtime\\umg\\public\\components\\widget.h",
+            "n:\\epic\\epic games\\ue_5.1\\engine\\source\\runtime\\umg\\public\\fieldnotification\\fieldnotificationdeclaration.h",
+            "n:\\epic\\epic games\\ue_5.1\\engine\\source\\runtime\\umg\\public\\fieldnotification\\fieldid.h",
+            "n:\\epic\\epic games\\ue_5.1\\engine\\source\\runtime\\umg\\public\\fieldnotification\\fieldvariant.h",
+            "n:\\epic\\epic games\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\fieldid.generated.h",
+            "n:\\epic\\epic games\\ue_5.1\\engine\\source\\runtime\\umg\\public\\fieldnotification\\iclassdescriptor.h",
+            "n:\\epic\\epic games\\ue_5.1\\engine\\source\\runtime\\umg\\public\\fieldnotification\\ifieldvaluechanged.h",
+            "n:\\epic\\epic games\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\ifieldvaluechanged.generated.h",
+            "n:\\epic\\epic games\\ue_5.1\\engine\\source\\runtime\\umg\\public\\components\\visual.h",
+            "n:\\epic\\epic games\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\visual.generated.h",
+            "n:\\epic\\epic games\\ue_5.1\\engine\\source\\runtime\\umg\\public\\components\\slatewrappertypes.h",
+            "n:\\epic\\epic games\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\slatewrappertypes.generated.h",
+            "n:\\epic\\epic games\\ue_5.1\\engine\\source\\runtime\\umg\\public\\slate\\widgettransform.h",
+            "n:\\epic\\epic games\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\widgettransform.generated.h",
+            "n:\\epic\\epic games\\ue_5.1\\engine\\source\\runtime\\umg\\public\\blueprint\\widgetnavigation.h",
+            "n:\\epic\\epic games\\ue_5.1\\engine\\source\\runtime\\slatecore\\public\\types\\navigationmetadata.h",
+            "n:\\epic\\epic games\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\widgetnavigation.generated.h",
+            "n:\\epic\\epic games\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\widget.generated.h",
+            "c:\\users\\nimbus\\documents\\unreal projects\\comp-475\\team\\comp_475_project\\comp_475_project\\plugins\\victoryplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\victorybplibrary\\uht\\ramacolorpicker.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
