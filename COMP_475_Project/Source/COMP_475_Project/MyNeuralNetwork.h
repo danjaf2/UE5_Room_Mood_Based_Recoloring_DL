@@ -31,6 +31,8 @@ class COMP_475_PROJECT_API UMyNeuralNetwork : public UNeuralNetwork
 		UMyNeuralNetwork();
 		TArray<float> URunModel(cv::Mat image);
 		TArray<float> UPreProcessImage(cv::Mat image);
+
+		const FString& ONNXModelFilePath = TEXT("C:/Users/Asus/Desktop/bruuh/COMP_475_Project/COMP_475_Project/mood-model-dummy.onnx");
 		
 	
 };

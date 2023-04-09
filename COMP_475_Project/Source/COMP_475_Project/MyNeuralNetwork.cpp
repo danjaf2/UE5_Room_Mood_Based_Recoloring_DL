@@ -43,9 +43,9 @@ TArray<float> UMyNeuralNetwork::URunModel(cv::Mat image)
 
 
 		// Load model from file.
-		const FString& ONNXModelFilePath = TEXT("C:/Users/Asus/Desktop/bruuh/COMP_475_Project/COMP_475_Project/Models/test_model_0.onnx");
+		
 		// Set Device
-		Network->SetDeviceType(ENeuralDeviceType::GPU);
+		Network->SetDeviceType(ENeuralDeviceType::CPU);
 		// Check that the network was successfully loaded
 		if (Network->Load(ONNXModelFilePath))
 		{
@@ -54,7 +54,7 @@ TArray<float> UMyNeuralNetwork::URunModel(cv::Mat image)
 		else
 		{
 			UE_LOG(LogTemp, Warning, TEXT("UNeuralNetwork could not loaded from %s."), *ONNXModelFilePath); 
-			return res;
+			//return res;
 		}
 	}
 
