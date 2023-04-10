@@ -4,6 +4,8 @@ namespace UnrealBuildTool.Rules {
         public COMP_475_Project(ReadOnlyTargetRules Target) : base(Target) {
             PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
+            bEnableUndefinedIdentifierWarnings = false;
+
             PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "OpenCV", "OpenCVHelper", "InputCore" });
 
             PrivateDependencyModuleNames.AddRange(new string[] {

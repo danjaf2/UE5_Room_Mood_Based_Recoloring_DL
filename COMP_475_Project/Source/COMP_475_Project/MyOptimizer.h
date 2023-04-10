@@ -13,8 +13,9 @@ public:
 	MyOptimizer();
 	~MyOptimizer();
 	static void OptimizeSceneForMoods();
+	//double ObjectFcn(std::vector<double>* funcLoc);
 	static void MyOptimizerSinkFunction();
-	FAutoConsoleVariableSink CVarOptimizeSceneSink();
+	//FAutoConsoleVariableSink CVarOptimizeSceneSink();
 	/*static int32 OptimizeScene = 0;
 	static TAutoConsoleVariable<int32> MyCustomVariable(
 		TEXT("MyCustomVariable"),
@@ -22,3 +23,5 @@ public:
 		TEXT("Description of MyCustomVariable.")
 	);*/
 };
+
+double ObjectFcn(std::vector<double>* funcLoc);

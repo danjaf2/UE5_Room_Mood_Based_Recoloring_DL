@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\nimbus\\documents\\unreal projects\\comp-475\\team\\comp_475_project\\comp_475_project\\plugins\\ceressolver\\source\\ceressolver\\private\\ceressolver.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\nimbus\\documents\\unreal projects\\comp-475\\team\\comp_475_project\\comp_475_project\\intermediate\\build\\win64\\comp_475_projecteditor\\debuggame\\engine\\sharedpch.engine.nonoptimized.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\nimbus\\documents\\unreal projects\\comp-475\\team\\comp_475_project\\comp_475_project\\plugins\\ceressolver\\intermediate\\build\\win64\\unrealeditor\\debuggame\\ceressolver\\definitions.ceressolver.h",
+            "c:\\users\\nimbus\\documents\\unreal projects\\comp-475\\team\\comp_475_project\\comp_475_project\\plugins\\ceressolver\\source\\ceressolver\\public\\ceressolver.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
