@@ -21,9 +21,9 @@
 
 struct ColorData
 {
-	float red = 255;
-	float green = 255;
-	float blue = 255;
+	float red = 0;
+	float green = 0;
+	float blue = 0;
 };
 UCLASS()
 class COMP_475_PROJECT_API AColorChanger : public AActor
@@ -53,7 +53,7 @@ public:
 	UPROPERTY(EditAnywhere, Category = "BlueprintClass")
 		TArray<AActor*> blueprintActors;
 
-	FString path = "C:/Users/Asus/Desktop/bruuh/COMP_475_Project/COMP_475_Project/RoomShots/img";
+	FString path = FPaths::ProjectDir() + "/RoomShots/img";
 
 	
 	TArray<ColorData*> actorColors;

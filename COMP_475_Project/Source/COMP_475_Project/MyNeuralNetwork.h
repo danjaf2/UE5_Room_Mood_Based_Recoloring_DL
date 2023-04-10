@@ -6,6 +6,7 @@
 #include "CoreMinimal.h"
 #include "NeuralNetwork.h"
 
+
 #include "PreOpenCVHeaders.h"
 #include "OpenCVHelper.h"
 #include <ThirdParty/OpenCV/include/opencv2/imgproc.hpp>
@@ -32,7 +33,7 @@ class COMP_475_PROJECT_API UMyNeuralNetwork : public UNeuralNetwork
 		TArray<float> URunModel(cv::Mat image);
 		TArray<float> UPreProcessImage(cv::Mat image);
 
-		const FString& ONNXModelFilePath = TEXT("C:/Users/Asus/Desktop/bruuh/COMP_475_Project/COMP_475_Project/mood-model-dummy.onnx");
+		//const FString& ONNXModelFilePath = TEXT("C:/Users/Asus/Desktop/bruuh/COMP_475_Project/COMP_475_Project/mood-model-dummy.onnx");
+		const FString& ONNXModelFilePath = FPaths::ProjectDir() + "/mood-model-dummy.onnx";
 		
-	
 };

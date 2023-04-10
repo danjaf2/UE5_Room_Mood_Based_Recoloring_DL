@@ -19,6 +19,10 @@ MyOptimizer::MyOptimizer()
 
 void MyOptimizer::OptimizeSceneForMoods()
 {
+	//FString s = FPaths::GetProjectFilePath() + "/mood-model-dummy.onnx";
+	////UE_LOG(LogTemp, Log, FString::Printf(TEXT("path:"));
+	////UE_LOG(LogTemp, Log, FString::Printf(TEXT("path:"));
+	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("path: %s"), s));
 	UE_LOG(LogTemp, Warning, TEXT("in OptimizeSceneForMoods()"));
 
 	// Create a function pointer for our object function.

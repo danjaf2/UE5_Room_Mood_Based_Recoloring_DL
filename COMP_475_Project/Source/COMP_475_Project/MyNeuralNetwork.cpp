@@ -54,7 +54,7 @@ TArray<float> UMyNeuralNetwork::URunModel(cv::Mat image)
 		else
 		{
 			UE_LOG(LogTemp, Warning, TEXT("UNeuralNetwork could not loaded from %s."), *ONNXModelFilePath); 
-			//return res;
+			return res;
 		}
 	}
 

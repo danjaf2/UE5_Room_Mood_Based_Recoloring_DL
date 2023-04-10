@@ -34,6 +34,18 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/CeresSolver/Binaries/Win64/UnrealEditor-CeresSolver-Win64-DebugGame.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/CeresSolver/Binaries/Win64/UnrealEditor-CeresSolver-Win64-DebugGame.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/CeresSolver/Binaries/Win64/UnrealEditor-Win64-DebugGame.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/RamaCodePlugin/Binaries/Win64/UnrealEditor-RamaCodePlugin-Win64-DebugGame.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -3433,6 +3445,10 @@
 	"RuntimeDependencies": [
 		{
 			"Path": "$(ProjectDir)/COMP_475_Project.uproject",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/CeresSolver/CeresSolver.uplugin",
 			"Type": "UFS"
 		},
 		{

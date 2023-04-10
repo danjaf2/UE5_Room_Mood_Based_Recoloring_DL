@@ -33,7 +33,7 @@ void AColorChanger::BeginPlay()
 	SetColor(0, 255, 1, 1);
 	UpdateAllColors();
 	TakeShots();
-	char* img = "C:/Users/Asus/Desktop/bruuh/COMP_475_Project/COMP_475_Project/RoomShots/img0.png";
+	char* img = "C:/Users/nimbus/Documents/Unreal Projects/COMP-475/Team/COMP_475_Project/COMP_475_Project/RoomShots/img0.png";
 	image = cv::imread(img);
 	myNetwork = NewObject<UMyNeuralNetwork>();
 	outputArray = myNetwork->URunModel(image);

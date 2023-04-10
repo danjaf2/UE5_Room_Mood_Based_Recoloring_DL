@@ -1,0 +1,16 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\nimbus\\documents\\unreal projects\\comp-475\\team\\comp_475_project\\comp_475_project\\source\\comp_475_project\\qbgradient.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\nimbus\\documents\\unreal projects\\comp-475\\team\\comp_475_project\\comp_475_project\\intermediate\\build\\win64\\comp_475_projecteditor\\debuggame\\engine\\sharedpch.engine.nonoptimized.shadowerrors.noundef.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\nimbus\\documents\\unreal projects\\comp-475\\team\\comp_475_project\\comp_475_project\\intermediate\\build\\win64\\unrealeditor\\debuggame\\comp_475_project\\definitions.comp_475_project.h",
+            "c:\\users\\nimbus\\documents\\unreal projects\\comp-475\\team\\comp_475_project\\comp_475_project\\source\\comp_475_project\\qbgradient.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.31.31103\\include\\fstream",
+            "n:\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\math.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
