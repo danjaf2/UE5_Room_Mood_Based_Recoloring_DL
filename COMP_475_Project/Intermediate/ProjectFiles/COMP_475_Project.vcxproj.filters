@@ -12,6 +12,8 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.vsconfig" />
+    <None Include="..\..\mood-model-dummy.onnx" />
+    <None Include="..\..\mood_model-53.onnx" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -42,9 +44,2046 @@
     <Filter Include="Plugins">
       <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Plugins\CeresSolver">
+      <UniqueIdentifier>{91F1237B-315F-302C-90A7-E7E065C1DA8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CeresSolver\Source">
+      <UniqueIdentifier>{6DD963DD-8FF1-323F-98A8-CBD5EBB60CFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CeresSolver\Source\CeresSolver">
+      <UniqueIdentifier>{4E90A03D-95EE-3BCE-9853-7AABBF92520C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CeresSolver\Source\CeresSolver\CeresSolver.Build.cs">
+      <Filter>Plugins\CeresSolver\Source\CeresSolver</Filter>
+    </None>
+    <Filter Include="Plugins\CeresSolver\Source\CeresSolver\Private">
+      <UniqueIdentifier>{329FD39A-E034-3D89-A632-680AC8D9F3E1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\CeresSolver\Source\CeresSolver\Private\CeresSolver.cpp">
+      <Filter>Plugins\CeresSolver\Source\CeresSolver\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\CeresSolver\Source\CeresSolver\Public">
+      <UniqueIdentifier>{4F096E07-BBD1-37AA-AD22-A8F1CA6B2083}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\CeresSolver\Public\CeresSolver.h">
+      <Filter>Plugins\CeresSolver\Source\CeresSolver\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\CeresSolver\CeresSolver.uplugin">
+      <Filter>Plugins\CeresSolver</Filter>
+    </None>
+    <Filter Include="Plugins\CeresSolver\Resources">
+      <UniqueIdentifier>{4924DED5-F3CB-34BB-BE8F-B2F27F6E1290}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CeresSolver\Resources\Icon128.png">
+      <Filter>Plugins\CeresSolver\Resources</Filter>
+    </None>
     <Filter Include="Plugins\RamaCodePlugin">
       <UniqueIdentifier>{DBB96F05-BCD3-3C4A-B337-0197170E51D9}</UniqueIdentifier>
     </Filter>
+    <None Include="..\..\Plugins\RamaCodePlugin\RamaCodePlugin.uplugin">
+      <Filter>Plugins\RamaCodePlugin</Filter>
+    </None>
+    <Filter Include="Plugins\RamaCodePlugin\Resources">
+      <UniqueIdentifier>{52476AD0-17D7-38AC-A8F0-3E3A69E94F73}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\RamaCodePlugin\Resources\Icon128.png">
+      <Filter>Plugins\RamaCodePlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\VictoryPlugin">
+      <UniqueIdentifier>{A0F49040-6300-3FF7-AE10-021994AD4664}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VictoryPlugin\VictoryBPLibrary.uplugin">
+      <Filter>Plugins\VictoryPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\VictoryPlugin\Resources">
+      <UniqueIdentifier>{1BF862D8-25A8-34DF-8EB5-74556A4B9F97}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VictoryPlugin\Resources\Icon128.png">
+      <Filter>Plugins\VictoryPlugin\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\VictoryPlugin\Resources\Thumbs.db">
+      <Filter>Plugins\VictoryPlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\CeresSolver\Source\ceres">
+      <UniqueIdentifier>{1AA5783E-745A-399E-B8BB-8A588A5884F9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\ceres.Build.cs">
+      <Filter>Plugins\CeresSolver\Source\ceres</Filter>
+    </None>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\Binaries">
+      <UniqueIdentifier>{BAF2011B-1F13-3DB7-BC3B-B36D86A93597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\Binaries\Win64">
+      <UniqueIdentifier>{5E324275-C009-31EC-8C0B-B059D831EC27}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\Binaries\Win64\ceres-debug.lib">
+      <Filter>Plugins\CeresSolver\Source\ceres\Binaries\Win64</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\Binaries\Win64\gflags.lib">
+      <Filter>Plugins\CeresSolver\Source\ceres\Binaries\Win64</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\Binaries\Win64\gflags_nothreads_static_debug.lib">
+      <Filter>Plugins\CeresSolver\Source\ceres\Binaries\Win64</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\Binaries\Win64\glog.dll">
+      <Filter>Plugins\CeresSolver\Source\ceres\Binaries\Win64</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\Binaries\Win64\glog.lib">
+      <Filter>Plugins\CeresSolver\Source\ceres\Binaries\Win64</Filter>
+    </None>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake">
+      <UniqueIdentifier>{775FF5EE-CF9C-3936-B5B3-D40768D4CC72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\Ceres">
+      <UniqueIdentifier>{CD2F4702-9F28-3955-8F47-8526A9B4FCF8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\Ceres\CeresConfig.cmake">
+      <Filter>Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\Ceres</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\Ceres\CeresConfigVersion.cmake">
+      <Filter>Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\Ceres</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\Ceres\CeresTargets-debug.cmake">
+      <Filter>Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\Ceres</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\Ceres\CeresTargets.cmake">
+      <Filter>Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\Ceres</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\Ceres\FindGlog.cmake">
+      <Filter>Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\Ceres</Filter>
+    </None>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\gflags">
+      <UniqueIdentifier>{1070EBB7-A0C9-3B35-B3C6-A015BFD81087}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\gflags\gflags-config-version.cmake">
+      <Filter>Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\gflags</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\gflags\gflags-config.cmake">
+      <Filter>Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\gflags</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\gflags\gflags-nonamespace-targets-debug.cmake">
+      <Filter>Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\gflags</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\gflags\gflags-nonamespace-targets.cmake">
+      <Filter>Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\gflags</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\gflags\gflags-targets-debug.cmake">
+      <Filter>Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\gflags</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\gflags\gflags-targets.cmake">
+      <Filter>Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\gflags</Filter>
+    </None>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\glog">
+      <UniqueIdentifier>{1E824FE8-037D-3AE0-A473-E8ACF6ED2060}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\glog\glog-config-version.cmake">
+      <Filter>Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\glog</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\glog\glog-config.cmake">
+      <Filter>Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\glog</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\glog\glog-modules.cmake">
+      <Filter>Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\glog</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\glog\glog-targets-debug.cmake">
+      <Filter>Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\glog</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\glog\glog-targets.cmake">
+      <Filter>Plugins\CeresSolver\Source\ceres\Binaries\Win64\cmake\glog</Filter>
+    </None>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\Binaries\Win64\pkgconfig">
+      <UniqueIdentifier>{DA699B68-DA85-31E6-9D4C-699370431CEA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\Binaries\Win64\pkgconfig\libglog.pc">
+      <Filter>Plugins\CeresSolver\Source\ceres\Binaries\Win64\pkgconfig</Filter>
+    </None>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include">
+      <UniqueIdentifier>{94674A53-75AC-35C9-9C0F-122C0908B764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\ceres">
+      <UniqueIdentifier>{DB88CEB1-750F-348E-9948-2150D28EA74D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\autodiff_cost_function.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\autodiff_first_order_function.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\autodiff_local_parameterization.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\autodiff_manifold.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\ceres.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\conditioned_cost_function.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\context.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\cost_function.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\cost_function_to_functor.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\covariance.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\crs_matrix.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\cubic_interpolation.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\c_api.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\dynamic_autodiff_cost_function.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\dynamic_cost_function.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\dynamic_cost_function_to_functor.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\dynamic_numeric_diff_cost_function.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\evaluation_callback.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\first_order_function.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\gradient_checker.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\gradient_problem.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\gradient_problem_solver.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\iteration_callback.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\jet.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\jet_fwd.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\line_manifold.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\local_parameterization.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\loss_function.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\manifold.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\manifold_test_utils.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\normal_prior.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\numeric_diff_cost_function.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\numeric_diff_first_order_function.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\numeric_diff_options.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\ordered_groups.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\problem.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\product_manifold.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\rotation.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\sized_cost_function.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\solver.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\sphere_manifold.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\tiny_solver.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\tiny_solver_autodiff_function.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\tiny_solver_cost_function_adapter.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\types.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\version.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\ceres\internal">
+      <UniqueIdentifier>{5828F4C8-E906-36B5-A727-9D0CF7F8C6BA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\internal\array_selector.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\internal\autodiff.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\internal\config.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\internal\disable_warnings.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\internal\eigen.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\internal\export.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\internal\fixed_array.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\internal\householder_vector.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\internal\integer_sequence_algorithm.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\internal\jet_traits.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\internal\line_parameterization.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\internal\memory.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\internal\numeric_diff.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\internal\parameter_dims.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\internal\port.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\internal\reenable_warnings.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\internal\sphere_manifold_functions.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\ceres\internal\variadic_evaluate.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\ceres\internal</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3">
+      <UniqueIdentifier>{AB96088C-A895-35CF-BB7E-0761D47F99B8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\signature_of_eigen3_matrix_library">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3</Filter>
+    </None>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen">
+      <UniqueIdentifier>{0EDE3DBA-CC49-3EF6-8C35-C12AB8F11F20}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\Cholesky">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\CholmodSupport">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\Core">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\Dense">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\Eigen">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\Eigenvalues">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\Geometry">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\Householder">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\IterativeLinearSolvers">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\Jacobi">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\LU">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\MetisSupport">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\OrderingMethods">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\PardisoSupport">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\PaStiXSupport">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\QR">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\QtAlignedMalloc">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\Sparse">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\SparseCholesky">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\SparseCore">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\SparseLU">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\SparseQR">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\SPQRSupport">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\StdDeque">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\StdList">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\StdVector">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\SuperLUSupport">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\SVD">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\UmfPackSupport">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen</Filter>
+    </None>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src">
+      <UniqueIdentifier>{8F9C9D7B-5EC8-3808-A315-C4C748EA6941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Cholesky">
+      <UniqueIdentifier>{9A2DB18A-49FB-3AE5-9D22-F1F0A6ADB6DD}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Cholesky\LDLT.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Cholesky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Cholesky\LLT.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Cholesky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Cholesky\LLT_LAPACKE.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Cholesky</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\CholmodSupport">
+      <UniqueIdentifier>{6526DCF1-B049-3A83-8DEF-0791B7264539}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\CholmodSupport\CholmodSupport.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\CholmodSupport</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core">
+      <UniqueIdentifier>{251F3725-B632-3FC5-9415-E95DD5F8B188}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Array.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\ArrayBase.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\ArrayWrapper.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Assign.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\AssignEvaluator.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Assign_MKL.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\BandMatrix.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Block.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\BooleanRedux.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\CommaInitializer.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\ConditionEstimator.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\CoreEvaluators.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\CoreIterators.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\CwiseBinaryOp.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\CwiseNullaryOp.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\CwiseTernaryOp.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\CwiseUnaryOp.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\CwiseUnaryView.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\DenseBase.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\DenseCoeffsBase.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\DenseStorage.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Diagonal.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\DiagonalMatrix.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\DiagonalProduct.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Dot.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\EigenBase.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\ForceAlignedAccess.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Fuzzy.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\GeneralProduct.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\GenericPacketMath.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\GlobalFunctions.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Inverse.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\IO.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Map.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\MapBase.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\MathFunctions.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\MathFunctionsImpl.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Matrix.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\MatrixBase.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\NestByValue.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\NoAlias.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\NumTraits.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\PermutationMatrix.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\PlainObjectBase.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Product.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\ProductEvaluators.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Random.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Redux.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Ref.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Replicate.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\ReturnByValue.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Reverse.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Select.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\SelfAdjointView.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\SelfCwiseBinaryOp.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Solve.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\SolverBase.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\SolveTriangular.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\StableNorm.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Stride.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Swap.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Transpose.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Transpositions.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\TriangularMatrix.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\VectorBlock.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\VectorwiseOp.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\Visitor.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch">
+      <UniqueIdentifier>{723CCF7A-E308-3407-8C31-1B022BA0F961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\AltiVec">
+      <UniqueIdentifier>{9108CAF8-8C7F-3EEF-82C0-B8B41300540D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\AltiVec\Complex.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\AltiVec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\AltiVec\MathFunctions.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\AltiVec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\AltiVec\PacketMath.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\AltiVec</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\AVX">
+      <UniqueIdentifier>{F0069B12-FA11-3421-A9D5-A98311EA54B8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\AVX\Complex.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\AVX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\AVX\MathFunctions.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\AVX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\AVX\PacketMath.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\AVX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\AVX\TypeCasting.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\AVX</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\AVX512">
+      <UniqueIdentifier>{14A9E70C-21F4-3036-BDF3-E755196B1542}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\AVX512\MathFunctions.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\AVX512</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\AVX512\PacketMath.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\AVX512</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\CUDA">
+      <UniqueIdentifier>{955A0361-C40A-3E16-B278-457555024BE4}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\CUDA\Complex.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\CUDA\Half.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\CUDA\MathFunctions.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\CUDA\PacketMath.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\CUDA\PacketMathHalf.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\CUDA\TypeCasting.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\CUDA</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\Default">
+      <UniqueIdentifier>{D78F4196-2763-3579-8BBC-521476F9B19C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\Default\ConjHelper.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\Default\Settings.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\Default</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\NEON">
+      <UniqueIdentifier>{15A05D5E-4A10-3F98-ACCB-D6E31B406BA2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\NEON\Complex.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\NEON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\NEON\MathFunctions.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\NEON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\NEON\PacketMath.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\NEON</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\SSE">
+      <UniqueIdentifier>{B40F8B5F-1FD2-3248-97B5-2458007F29E3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\SSE\Complex.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\SSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\SSE\MathFunctions.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\SSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\SSE\PacketMath.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\SSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\SSE\TypeCasting.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\SSE</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\ZVector">
+      <UniqueIdentifier>{7BC2DB77-15D6-35F5-8694-7D733BAE578A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\ZVector\Complex.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\ZVector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\ZVector\MathFunctions.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\ZVector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\ZVector\PacketMath.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\arch\ZVector</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\functors">
+      <UniqueIdentifier>{B71CAF53-994A-30E5-A15E-D807B1118AAE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\functors\AssignmentFunctors.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\functors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\functors\BinaryFunctors.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\functors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\functors\NullaryFunctors.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\functors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\functors\StlFunctors.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\functors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\functors\TernaryFunctors.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\functors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\functors\UnaryFunctors.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\functors</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products">
+      <UniqueIdentifier>{73FA0A61-3621-3E2F-89B1-BE985F7CB934}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products\GeneralBlockPanelKernel.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products\GeneralMatrixMatrix.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products\GeneralMatrixMatrixTriangular.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products\GeneralMatrixMatrixTriangular_BLAS.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products\GeneralMatrixMatrix_BLAS.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products\GeneralMatrixVector.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products\GeneralMatrixVector_BLAS.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products\Parallelizer.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products\SelfadjointMatrixMatrix.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products\SelfadjointMatrixMatrix_BLAS.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products\SelfadjointMatrixVector.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products\SelfadjointMatrixVector_BLAS.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products\SelfadjointProduct.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products\SelfadjointRank2Update.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products\TriangularMatrixMatrix.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products\TriangularMatrixMatrix_BLAS.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products\TriangularMatrixVector.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products\TriangularMatrixVector_BLAS.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products\TriangularSolverMatrix.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products\TriangularSolverMatrix_BLAS.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products\TriangularSolverVector.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util">
+      <UniqueIdentifier>{C208327F-A5D6-3D85-A612-AB736A6057D8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util\BlasUtil.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util\Constants.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util\DisableStupidWarnings.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util\ForwardDeclarations.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util\Macros.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util\Memory.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util\Meta.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util\MKL_support.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util\NonMPL2.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util\ReenableStupidWarnings.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util\StaticAssert.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util\XprHelper.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues">
+      <UniqueIdentifier>{CC6539E5-EB89-308A-A486-BD4BCC866DED}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues\ComplexEigenSolver.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues\ComplexSchur.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues\ComplexSchur_LAPACKE.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues\EigenSolver.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues\GeneralizedEigenSolver.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues\GeneralizedSelfAdjointEigenSolver.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues\HessenbergDecomposition.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues\MatrixBaseEigenvalues.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues\RealQZ.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues\RealSchur.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues\RealSchur_LAPACKE.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues\SelfAdjointEigenSolver.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues\SelfAdjointEigenSolver_LAPACKE.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues\Tridiagonalization.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry">
+      <UniqueIdentifier>{F4CA6AE5-7E2A-3F10-80B8-AE0A0CDA1B17}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry\AlignedBox.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry\AngleAxis.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry\EulerAngles.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry\Homogeneous.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry\Hyperplane.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry\OrthoMethods.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry\ParametrizedLine.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry\Quaternion.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry\Rotation2D.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry\RotationBase.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry\Scaling.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry\Transform.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry\Translation.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry\Umeyama.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry\arch">
+      <UniqueIdentifier>{89247118-0425-3203-8BD1-38A6E3D577DA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry\arch\Geometry_SSE.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Geometry\arch</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Householder">
+      <UniqueIdentifier>{4E91DBA6-1F09-3B69-8CE8-80F9961FE281}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Householder\BlockHouseholder.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Householder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Householder\Householder.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Householder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Householder\HouseholderSequence.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Householder</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\IterativeLinearSolvers">
+      <UniqueIdentifier>{2B8A810A-0227-3F91-86C7-B08AEED46C53}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\IterativeLinearSolvers\BasicPreconditioners.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\IterativeLinearSolvers\BiCGSTAB.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\IterativeLinearSolvers\ConjugateGradient.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\IterativeLinearSolvers\IncompleteCholesky.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\IterativeLinearSolvers\IncompleteLUT.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\IterativeLinearSolvers\IterativeSolverBase.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\IterativeLinearSolvers\LeastSquareConjugateGradient.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\IterativeLinearSolvers\SolveWithGuess.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Jacobi">
+      <UniqueIdentifier>{CAD609C7-4D34-3EA7-A320-321A66342E22}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Jacobi\Jacobi.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\Jacobi</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\LU">
+      <UniqueIdentifier>{AC76E382-F2D2-371C-A9CF-797B02C95ACD}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\LU\Determinant.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\LU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\LU\FullPivLU.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\LU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\LU\InverseImpl.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\LU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\LU\PartialPivLU.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\LU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\LU\PartialPivLU_LAPACKE.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\LU</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\LU\arch">
+      <UniqueIdentifier>{EB1807E5-350E-3261-B6B1-BD68A28C0FD7}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\LU\arch\Inverse_SSE.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\LU\arch</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\MetisSupport">
+      <UniqueIdentifier>{D1F22330-4087-3DD2-B951-E584608018DE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\MetisSupport\MetisSupport.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\MetisSupport</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\misc">
+      <UniqueIdentifier>{44F02E23-091E-3A3F-BBE8-5EE8817B481D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\misc\blas.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\misc\Image.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\misc\Kernel.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\misc\lapack.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\misc\lapacke.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\misc\lapacke_mangling.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\misc\RealSvd2x2.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\misc</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\OrderingMethods">
+      <UniqueIdentifier>{9C75CEF5-85E6-3200-A935-29E3B53ADCBF}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\OrderingMethods\Amd.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\OrderingMethods</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\OrderingMethods\Eigen_Colamd.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\OrderingMethods</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\OrderingMethods\Ordering.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\OrderingMethods</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\PardisoSupport">
+      <UniqueIdentifier>{A25AF22F-E53A-3FDC-BC68-21D6C6204FC8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\PardisoSupport\PardisoSupport.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\PardisoSupport</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\PaStiXSupport">
+      <UniqueIdentifier>{85F67DE9-2198-3C73-809E-264BC0465966}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\PaStiXSupport\PaStiXSupport.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\PaStiXSupport</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\plugins">
+      <UniqueIdentifier>{04DC78B7-0C89-3B0C-9112-00C998A74ACD}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\plugins\ArrayCwiseBinaryOps.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\plugins\ArrayCwiseUnaryOps.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\plugins\BlockMethods.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\plugins\CommonCwiseBinaryOps.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\plugins\CommonCwiseUnaryOps.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\plugins\MatrixCwiseBinaryOps.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\plugins\MatrixCwiseUnaryOps.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\plugins</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\QR">
+      <UniqueIdentifier>{212473D7-7D25-3312-8BDA-31FE64A537DA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\QR\ColPivHouseholderQR.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\QR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\QR\ColPivHouseholderQR_LAPACKE.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\QR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\QR\CompleteOrthogonalDecomposition.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\QR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\QR\FullPivHouseholderQR.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\QR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\QR\HouseholderQR.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\QR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\QR\HouseholderQR_LAPACKE.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\QR</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCholesky">
+      <UniqueIdentifier>{A1C30C80-C19A-355B-9C1D-051B9E6D76B0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCholesky\SimplicialCholesky.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCholesky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCholesky\SimplicialCholesky_impl.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCholesky</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore">
+      <UniqueIdentifier>{63F76165-5B6B-37A0-A6B6-5AE559D8D6B2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\AmbiVector.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\CompressedStorage.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\ConservativeSparseSparseProduct.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\MappedSparseMatrix.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseAssign.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseBlock.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseColEtree.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseCompressedBase.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseCwiseBinaryOp.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseCwiseUnaryOp.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseDenseProduct.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseDiagonalProduct.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseDot.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseFuzzy.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseMap.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseMatrix.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseMatrixBase.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparsePermutation.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseProduct.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseRedux.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseRef.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseSelfAdjointView.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseSolverBase.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseSparseProductWithPruning.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseTranspose.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseTriangularView.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseUtil.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseVector.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\SparseView.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore\TriangularSolver.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU">
+      <UniqueIdentifier>{59C6AA68-A132-3DB7-98E2-3774D6F7912B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU\SparseLU.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU\SparseLUImpl.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU\SparseLU_column_bmod.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU\SparseLU_column_dfs.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU\SparseLU_copy_to_ucol.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU\SparseLU_gemm_kernel.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU\SparseLU_heap_relax_snode.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU\SparseLU_kernel_bmod.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU\SparseLU_Memory.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU\SparseLU_panel_bmod.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU\SparseLU_panel_dfs.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU\SparseLU_pivotL.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU\SparseLU_pruneL.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU\SparseLU_relax_snode.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU\SparseLU_Structs.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU\SparseLU_SupernodalMatrix.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU\SparseLU_Utils.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseQR">
+      <UniqueIdentifier>{24B462D3-1702-39C5-BFE4-E7D29840E4FC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseQR\SparseQR.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SparseQR</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SPQRSupport">
+      <UniqueIdentifier>{FF661F2F-3C28-3B75-A1D2-F674B8D14D23}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SPQRSupport\SuiteSparseQRSupport.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SPQRSupport</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\StlSupport">
+      <UniqueIdentifier>{F0F9AB78-6C4B-34E2-B236-4FB5D1642447}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\StlSupport\details.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\StlSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\StlSupport\StdDeque.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\StlSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\StlSupport\StdList.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\StlSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\StlSupport\StdVector.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\StlSupport</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SuperLUSupport">
+      <UniqueIdentifier>{082F1D58-67A9-37D9-A273-54371C8C428B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SuperLUSupport\SuperLUSupport.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SuperLUSupport</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SVD">
+      <UniqueIdentifier>{01FB7ED3-1ABD-3D1E-BCDA-F79AEC35D1C0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SVD\BDCSVD.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SVD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SVD\JacobiSVD.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SVD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SVD\JacobiSVD_LAPACKE.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SVD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SVD\SVDBase.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SVD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SVD\UpperBidiagonalization.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\SVD</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\UmfPackSupport">
+      <UniqueIdentifier>{64488CCD-FDE7-3A23-AD9B-63709A2691CB}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\UmfPackSupport\UmfPackSupport.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\Eigen\src\UmfPackSupport</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported">
+      <UniqueIdentifier>{7B7EDB26-802F-3227-BA73-F96D72FE839C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen">
+      <UniqueIdentifier>{E4143394-A370-3C7D-8669-A8715D1A6E1D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\AdolcForward">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\AlignedVector3">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\ArpackSupport">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\AutoDiff">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\BVH">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\EulerAngles">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\FFT">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\IterativeSolvers">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\KroneckerProduct">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\LevenbergMarquardt">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\MatrixFunctions">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\MoreVectorization">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\MPRealSupport">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\NonLinearOptimization">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\NumericalDiff">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\OpenGLSupport">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\Polynomials">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\Skyline">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\SparseExtra">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\SpecialFunctions">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\Splines">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen</Filter>
+    </None>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11">
+      <UniqueIdentifier>{2B526475-903F-3598-BEB4-1B500E34D905}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\Tensor">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\TensorSymmetry">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11</Filter>
+    </None>
+    <None Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\ThreadPool">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11</Filter>
+    </None>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src">
+      <UniqueIdentifier>{7134133A-B5A8-3E30-91E8-0A4F714D9D54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor">
+      <UniqueIdentifier>{73FAADC3-EA61-3245-B6AF-305BCF7D369E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\Tensor.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorArgMax.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorAssign.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorBase.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorBroadcasting.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorChipping.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorConcatenation.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorContraction.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorContractionBlocking.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorContractionCuda.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorContractionMapper.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorContractionThreadPool.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorConversion.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorConvolution.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorCostModel.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorCustomOp.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorDevice.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorDeviceCuda.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorDeviceDefault.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorDeviceSycl.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorDeviceThreadPool.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorDimensionList.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorDimensions.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorEvalTo.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorEvaluator.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorExecutor.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorExpr.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorFFT.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorFixedSize.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorForcedEval.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorForwardDeclarations.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorFunctors.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorGenerator.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorGlobalFunctions.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorImagePatch.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorIndexList.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorInflation.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorInitializer.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorIntDiv.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorIO.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorLayoutSwap.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorMacros.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorMap.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorMeta.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorMorphing.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorPadding.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorPatch.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorRandom.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorReduction.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorReductionCuda.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorReductionSycl.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorRef.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorReverse.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorScan.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorShuffling.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorStorage.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorStriding.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorSycl.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorSyclConvertToDeviceExpression.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorSyclExprConstructor.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorSyclExtractAccessor.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorSyclExtractFunctors.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorSyclLeafCount.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorSyclPlaceHolderExpr.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorSyclRun.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorSyclTuple.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorTraits.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorUInt128.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor\TensorVolumePatch.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\Tensor</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\TensorSymmetry">
+      <UniqueIdentifier>{55D8381A-F7EA-357F-9757-60D2EA9C14CB}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\TensorSymmetry\DynamicSymmetry.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\TensorSymmetry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\TensorSymmetry\StaticSymmetry.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\TensorSymmetry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\TensorSymmetry\Symmetry.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\TensorSymmetry</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\TensorSymmetry\util">
+      <UniqueIdentifier>{C17F5DA0-661F-3869-BBE4-811A4ED3D5AA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\TensorSymmetry\util\TemplateGroupTheory.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\TensorSymmetry\util</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\ThreadPool">
+      <UniqueIdentifier>{831C129A-9EA6-32D6-8219-4E9E3AD05473}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\ThreadPool\EventCount.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\ThreadPool\NonBlockingThreadPool.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\ThreadPool\RunQueue.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\ThreadPool\SimpleThreadPool.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\ThreadPool\ThreadEnvironment.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\ThreadPool\ThreadLocal.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\ThreadPool\ThreadPoolInterface.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\ThreadPool\ThreadYield.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\ThreadPool</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\util">
+      <UniqueIdentifier>{7039F73F-31AA-3EC2-BE21-3B6A351650A8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\util\CXX11Meta.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\util\CXX11Workarounds.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\util\EmulateArray.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\util\EmulateCXX11Meta.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\util\MaxSizeVector.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\CXX11\src\util</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src">
+      <UniqueIdentifier>{F94A80F3-856F-3E6D-9425-80F41663701D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\AutoDiff">
+      <UniqueIdentifier>{3A638393-D420-33DB-8582-43E44F33F656}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\AutoDiff\AutoDiffJacobian.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\AutoDiff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\AutoDiff\AutoDiffScalar.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\AutoDiff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\AutoDiff\AutoDiffVector.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\AutoDiff</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\BVH">
+      <UniqueIdentifier>{AD99CDA1-F154-32A0-B718-DDD0C94F18B3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\BVH\BVAlgorithms.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\BVH\KdBVH.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\BVH</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Eigenvalues">
+      <UniqueIdentifier>{4B4D1A6F-E978-398D-994A-FFEAF0722582}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Eigenvalues\ArpackSelfAdjointEigenSolver.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\EulerAngles">
+      <UniqueIdentifier>{E25456A2-7B7C-38B9-B029-3DB90B3623F0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\EulerAngles\EulerAngles.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\EulerAngles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\EulerAngles\EulerSystem.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\EulerAngles</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\FFT">
+      <UniqueIdentifier>{06E14992-4EE6-3B59-A0A1-AF76546AE964}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\FFT\ei_fftw_impl.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\FFT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\FFT\ei_kissfft_impl.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\FFT</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\IterativeSolvers">
+      <UniqueIdentifier>{1CED6852-11BE-3338-912E-C5FCCFFB3E12}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\IterativeSolvers\ConstrainedConjGrad.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\IterativeSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\IterativeSolvers\DGMRES.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\IterativeSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\IterativeSolvers\GMRES.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\IterativeSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\IterativeSolvers\IncompleteLU.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\IterativeSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\IterativeSolvers\IterationController.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\IterativeSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\IterativeSolvers\MINRES.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\IterativeSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\IterativeSolvers\Scaling.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\IterativeSolvers</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\KroneckerProduct">
+      <UniqueIdentifier>{8D6B9BF8-C3FF-3395-A388-D88B0C703D9C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\KroneckerProduct\KroneckerTensorProduct.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\KroneckerProduct</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\LevenbergMarquardt">
+      <UniqueIdentifier>{60F3E25E-E4E2-355E-9862-2197416C1C81}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\LevenbergMarquardt\LevenbergMarquardt.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\LevenbergMarquardt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\LevenbergMarquardt\LMcovar.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\LevenbergMarquardt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\LevenbergMarquardt\LMonestep.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\LevenbergMarquardt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\LevenbergMarquardt\LMpar.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\LevenbergMarquardt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\LevenbergMarquardt\LMqrsolv.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\LevenbergMarquardt</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\MatrixFunctions">
+      <UniqueIdentifier>{BABAAB72-83B4-398C-8CCE-685FFFED64DF}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\MatrixFunctions\MatrixExponential.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\MatrixFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\MatrixFunctions\MatrixFunction.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\MatrixFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\MatrixFunctions\MatrixLogarithm.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\MatrixFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\MatrixFunctions\MatrixPower.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\MatrixFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\MatrixFunctions\MatrixSquareRoot.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\MatrixFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\MatrixFunctions\StemFunction.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\MatrixFunctions</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\MoreVectorization">
+      <UniqueIdentifier>{0BE28191-6849-3D8A-81C9-3904588E0C32}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\MoreVectorization\MathFunctions.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\MoreVectorization</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization">
+      <UniqueIdentifier>{FC7AD2BD-DD58-373A-9B8D-7418D4E09553}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization\chkder.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization\covar.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization\dogleg.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization\fdjac1.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization\HybridNonLinearSolver.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization\LevenbergMarquardt.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization\lmpar.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization\qrsolv.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization\r1mpyq.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization\r1updt.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization\rwupdt.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NonLinearOptimization</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NumericalDiff">
+      <UniqueIdentifier>{7FD9AC04-F257-37A9-A9FA-FAB2356B9784}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NumericalDiff\NumericalDiff.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\NumericalDiff</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Polynomials">
+      <UniqueIdentifier>{B0EE564A-63B0-39E2-B5FB-9A26B2208380}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Polynomials\Companion.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Polynomials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Polynomials\PolynomialSolver.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Polynomials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Polynomials\PolynomialUtils.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Polynomials</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Skyline">
+      <UniqueIdentifier>{046B3BF7-B806-3724-B1E8-C820910822F3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Skyline\SkylineInplaceLU.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Skyline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Skyline\SkylineMatrix.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Skyline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Skyline\SkylineMatrixBase.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Skyline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Skyline\SkylineProduct.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Skyline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Skyline\SkylineStorage.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Skyline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Skyline\SkylineUtil.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Skyline</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SparseExtra">
+      <UniqueIdentifier>{75BA3820-482B-31EF-9657-1A83C5CAF14D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SparseExtra\BlockOfDynamicSparseMatrix.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SparseExtra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SparseExtra\BlockSparseMatrix.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SparseExtra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SparseExtra\DynamicSparseMatrix.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SparseExtra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SparseExtra\MarketIO.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SparseExtra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SparseExtra\MatrixMarketIterator.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SparseExtra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SparseExtra\RandomSetter.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SparseExtra</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SpecialFunctions">
+      <UniqueIdentifier>{6DC86A8F-347A-335B-939B-6CACEACD0FC8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SpecialFunctions\SpecialFunctionsArrayAPI.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SpecialFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SpecialFunctions\SpecialFunctionsFunctors.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SpecialFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SpecialFunctions\SpecialFunctionsHalf.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SpecialFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SpecialFunctions\SpecialFunctionsImpl.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SpecialFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SpecialFunctions\SpecialFunctionsPacketMath.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SpecialFunctions</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SpecialFunctions\arch">
+      <UniqueIdentifier>{C1A0D2C0-882D-30E1-9387-F28288A0D029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SpecialFunctions\arch\CUDA">
+      <UniqueIdentifier>{1D81A700-09EE-3B72-90B7-1A8CEEFD983C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SpecialFunctions\arch\CUDA\CudaSpecialFunctions.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\SpecialFunctions\arch\CUDA</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Splines">
+      <UniqueIdentifier>{600633EE-04DD-38C2-BEC3-B560FB0E12C5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Splines\Spline.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Splines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Splines\SplineFitting.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Splines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Splines\SplineFwd.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\eigen3\unsupported\Eigen\src\Splines</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\gflags">
+      <UniqueIdentifier>{FCF72296-BA19-34E6-B39E-7056BE66AE74}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\gflags\gflags.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\gflags</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\gflags\gflags_completions.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\gflags</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\gflags\gflags_declare.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\gflags</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\gflags\gflags_gflags.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\gflags</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CeresSolver\Source\ceres\include\glog">
+      <UniqueIdentifier>{1105002C-906B-3063-8044-B8705A78676A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\glog\export.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\glog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\glog\logging.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\glog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\glog\log_severity.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\glog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\glog\platform.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\glog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\glog\raw_logging.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\glog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\glog\stl_logging.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\glog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CeresSolver\Source\ceres\include\glog\vlog_is_on.h">
+      <Filter>Plugins\CeresSolver\Source\ceres\include\glog</Filter>
+    </ClInclude>
     <Filter Include="Plugins\RamaCodePlugin\Source">
       <UniqueIdentifier>{F51ECD5E-A395-3491-9182-AC16C69F1E61}</UniqueIdentifier>
     </Filter>
@@ -117,30 +2156,6 @@
     <ClInclude Include="..\..\Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\RamaJoyPatrol\RamaJoyPatrol.h">
       <Filter>Plugins\RamaCodePlugin\Source\RamaCodePlugin\Public\RamaJoyPatrol</Filter>
     </ClInclude>
-    <None Include="..\..\Plugins\RamaCodePlugin\RamaCodePlugin.uplugin">
-      <Filter>Plugins\RamaCodePlugin</Filter>
-    </None>
-    <Filter Include="Plugins\RamaCodePlugin\Resources">
-      <UniqueIdentifier>{52476AD0-17D7-38AC-A8F0-3E3A69E94F73}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Plugins\RamaCodePlugin\Resources\Icon128.png">
-      <Filter>Plugins\RamaCodePlugin\Resources</Filter>
-    </None>
-    <Filter Include="Plugins\VictoryPlugin">
-      <UniqueIdentifier>{A0F49040-6300-3FF7-AE10-021994AD4664}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Plugins\VictoryPlugin\VictoryBPLibrary.uplugin">
-      <Filter>Plugins\VictoryPlugin</Filter>
-    </None>
-    <Filter Include="Plugins\VictoryPlugin\Resources">
-      <UniqueIdentifier>{1BF862D8-25A8-34DF-8EB5-74556A4B9F97}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Plugins\VictoryPlugin\Resources\Icon128.png">
-      <Filter>Plugins\VictoryPlugin\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\VictoryPlugin\Resources\Thumbs.db">
-      <Filter>Plugins\VictoryPlugin\Resources</Filter>
-    </None>
     <Filter Include="Plugins\VictoryPlugin\Source">
       <UniqueIdentifier>{7C2A5948-3ED5-3E98-8227-4A03397E1380}</UniqueIdentifier>
     </Filter>
@@ -198,6 +2213,15 @@
     <ClInclude Include="..\..\Source\COMP_475_Project\COMP_475_Project.h">
       <Filter>Source\COMP_475_Project</Filter>
     </ClInclude>
+    <None Include="..\..\Source\COMP_475_Project\model.onnx">
+      <Filter>Source\COMP_475_Project</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\COMP_475_Project\MyGameModeBase.cpp">
+      <Filter>Source\COMP_475_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\COMP_475_Project\MyGameModeBase.h">
+      <Filter>Source\COMP_475_Project</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\COMP_475_Project\MyNeuralNetwork.cpp">
       <Filter>Source\COMP_475_Project</Filter>
     </ClCompile>
@@ -208,6 +2232,12 @@
       <Filter>Source\COMP_475_Project</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\COMP_475_Project\MyOptimizer.h">
+      <Filter>Source\COMP_475_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\COMP_475_Project\qbGradient.cpp">
+      <Filter>Source\COMP_475_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\COMP_475_Project\qbGradient.h">
       <Filter>Source\COMP_475_Project</Filter>
     </ClInclude>
   </ItemGroup>

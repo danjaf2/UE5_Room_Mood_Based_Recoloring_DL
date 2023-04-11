@@ -43,9 +43,9 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	void BP_ChangeColor(AActor* object, ColorData* colors);
-	void BP_SaveShot(AActor* object, int cameraNumber);//Camera number goes from 0 to 3;
+	void BP_SaveShot(AActor* object, int cameraNumber, bool initialShots);//Camera number goes from 0 to 3;
 	void UpdateAllColors();//Call this
-	void TakeShots();//Call this
+	void TakeShots(bool initialShots);//Call this
 	void SetColor(int index, float r, float g, float b);
 
 
@@ -60,7 +60,7 @@ public:
 
 	TArray<float> outputArray;
 
-	UMyNeuralNetwork* myNetwork;
+	static UMyNeuralNetwork* myNetwork;
 
 	cv::Mat image;
 

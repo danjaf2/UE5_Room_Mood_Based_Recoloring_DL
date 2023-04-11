@@ -32,8 +32,11 @@ class COMP_475_PROJECT_API UMyNeuralNetwork : public UNeuralNetwork
 		UMyNeuralNetwork();
 		TArray<float> URunModel(cv::Mat image);
 		TArray<float> UPreProcessImage(cv::Mat image);
+		//Default mood for tests
+		FString mood = "scary";
 
 		//const FString& ONNXModelFilePath = TEXT("C:/Users/Asus/Desktop/bruuh/COMP_475_Project/COMP_475_Project/mood-model-dummy.onnx");
-		const FString& ONNXModelFilePath = FPaths::ProjectDir() + "/mood-model-dummy.onnx";
+		//const FString& ONNXModelFilePath = FPaths::ProjectDir() + "/mood_model-53.onnx";
+		const FString& ONNXModelFilePath = TEXT("C:/Users/nimbus/Documents/Unreal Projects/COMP-475/Team/COMP_475_Project/COMP_475_Project/mood_model-53.onnx");
 		
 };

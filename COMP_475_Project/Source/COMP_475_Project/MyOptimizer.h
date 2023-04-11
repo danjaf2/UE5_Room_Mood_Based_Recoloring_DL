@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-
+#include "ColorChanger.h"
 /**
  * 
  */
@@ -12,16 +12,14 @@ class COMP_475_PROJECT_API MyOptimizer
 public:
 	MyOptimizer();
 	~MyOptimizer();
-	static void OptimizeSceneForMoods();
+	void OptimizeSceneForMoods(AColorChanger *ColorChanger);
+	//AColorChanger* ColorChanger;
 	//double ObjectFcn(std::vector<double>* funcLoc);
-	static void MyOptimizerSinkFunction();
+	/*void MyOptimizerSinkFunction();*/
 	//FAutoConsoleVariableSink CVarOptimizeSceneSink();
-	/*static int32 OptimizeScene = 0;
-	static TAutoConsoleVariable<int32> MyCustomVariable(
-		TEXT("MyCustomVariable"),
-		0,
-		TEXT("Description of MyCustomVariable.")
-	);*/
+	static UMyNeuralNetwork* myNetwork;
 };
 
 double ObjectFcn(std::vector<double>* funcLoc);
+double CostFunction(std::vector<double>* funcLoc);
+//AColorChanger *ColorChanger;

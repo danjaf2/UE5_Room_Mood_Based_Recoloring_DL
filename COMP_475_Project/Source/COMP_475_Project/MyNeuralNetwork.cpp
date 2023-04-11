@@ -27,7 +27,25 @@ using namespace cv;
 
 UMyNeuralNetwork::UMyNeuralNetwork()
 {
-	Network = nullptr;
+	//Network = nullptr;
+	//Running inference
+	Network = NewObject<UNeuralNetwork>((UObject*)GetTransientPackage(), UNeuralNetwork::StaticClass());
+	//create array of the correct pixel values from results
+
+
+	// Load model from file.
+
+	// Set Device
+	Network->SetDeviceType(ENeuralDeviceType::CPU);
+	// Check that the network was successfully loaded
+	if (Network->Load(ONNXModelFilePath))
+	{
+		UE_LOG(LogTemp, Log, TEXT("Neural Network loaded successfully.s"))
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("UNeuralNetwork could not loaded from %s."), *ONNXModelFilePath);
+	}
 }
 TArray<float> UMyNeuralNetwork::URunModel(cv::Mat image)
 {
